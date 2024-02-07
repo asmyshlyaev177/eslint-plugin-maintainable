@@ -2,7 +2,7 @@
   "name": "eslint-plugin-maintainable",
   "version": "0.1.0",
   "description": "Eslint config to keep code clean and in maintainable state",
-    "author": {
+  "author": {
     "name": "asmyshlyaev177",
     "email": "asmyshlyaev177@gmail.com",
     "url": "https://www.linkedin.com/in/asmyshlyaev177/"
@@ -17,7 +17,8 @@
     "typescript",
     "clean code",
     "quality",
-    "clean code",
+    "prettier",
+    "code format",
     "maintainable code",
     "maintainability",
     "manageable code",
@@ -25,9 +26,10 @@
     "readability",
     "coding-style"
   ],
-  "main": "./lib/index.cjs",
-  "exports": "./lib/index.cjs",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
   "scripts": {
+    "build": "esbuild lib/index.cjs --bundle --minify --platform=node --target=node16 --outfile=dist/index.js",
     "lint": "npm-run-all \"lint:*\"",
     "lint_docs:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
@@ -48,10 +50,10 @@
     "eslint-plugin-no-secrets": "^0.x.x",
     "eslint-plugin-prettier": "^5.x.x",
     "eslint-plugin-sonarjs": "^0.x.x",
-    "eslint-plugin-unicorn": "^50.x.x",
-    "requireindex": "^1.2.0"
+    "eslint-plugin-unicorn": "^50.x.x"
   },
   "devDependencies": {
+    "esbuild": "^0.20.0",
     "eslint": "^8.19.0",
     "eslint-doc-generator": "^1.0.0",
     "eslint-plugin-eslint-plugin": "^5.0.0",
