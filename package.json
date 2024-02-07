@@ -1,0 +1,82 @@
+{
+  "name": "eslint-plugin-maintainable",
+  "version": "0.1.0",
+  "description": "Eslint config to keep code clean and in maintainable state",
+    "author": {
+    "name": "asmyshlyaev177",
+    "email": "asmyshlyaev177@gmail.com",
+    "url": "https://www.linkedin.com/in/asmyshlyaev177/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-config",
+    "eslintconfig",
+    "typescript",
+    "clean code",
+    "quality",
+    "clean code",
+    "maintainable code",
+    "maintainability",
+    "manageable code",
+    "readable code",
+    "readability",
+    "coding-style"
+  ],
+  "main": "./lib/index.cjs",
+  "exports": "./lib/index.cjs",
+  "scripts": {
+    "lint": "npm-run-all \"lint:*\"",
+    "lint_docs:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "test": "echo 'tbd'",
+    "update:eslint-docs": "eslint-doc-generator"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.x.x",
+    "@typescript-eslint/parser": "^6.x.x",
+    "eslint-config-prettier": "^9.x.x",
+    "eslint-plugin-compat": "^4.x.x",
+    "eslint-plugin-cypress": "^2.x.x",
+    "eslint-plugin-deprecation": "^2.x.x",
+    "eslint-plugin-disable": "^2.x.x",
+    "eslint-plugin-jest": "^27.x.x",
+    "eslint-plugin-jsonc": "^2.x.x",
+    "eslint-plugin-jsx-a11y": "^6.x.x",
+    "eslint-plugin-no-secrets": "^0.x.x",
+    "eslint-plugin-prettier": "^5.x.x",
+    "eslint-plugin-sonarjs": "^0.x.x",
+    "eslint-plugin-unicorn": "^50.x.x",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-doc-generator": "^1.0.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": "^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.x.x",
+    "@typescript-eslint/parser": "^6.x.x",
+    "eslint": "^8.x.x",
+    "eslint-config-prettier": "^9.x.x",
+    "eslint-plugin-compat": "^4.x.x",
+    "eslint-plugin-cypress": "^2.x.x",
+    "eslint-plugin-deprecation": "^2.x.x",
+    "eslint-plugin-disable": "^2.x.x",
+    "eslint-plugin-jest": "^27.x.x",
+    "eslint-plugin-jsonc": "^2.x.x",
+    "eslint-plugin-jsx-a11y": "^6.x.x",
+    "eslint-plugin-no-secrets": "^0.x.x",
+    "eslint-plugin-prettier": "^5.x.x",
+    "eslint-plugin-sonarjs": "^0.x.x",
+    "eslint-plugin-unicorn": "^50.x.x",
+    "prettier": "^3.x.x"
+  }
+}
