@@ -46,7 +46,7 @@ quote_type = single
 max_line_length = 80
 ```
 
-### 4. Enforce it via husky and lint-staged
+### 4. Enforce it via `husky` and `lint-staged`
 
 Install deps
 
@@ -54,7 +54,9 @@ Install deps
 npm i -D husky lint-staged
 ```
 
-And update `pack
+More details at [lint-staged repo](https://github.com/lint-staged/lint-staged?tab=readme-ov-file#installation-and-setup)
+
+And update `package.json`
 
 ```json
   "husky": {
