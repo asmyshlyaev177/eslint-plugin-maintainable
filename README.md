@@ -32,7 +32,7 @@ npm i -D eslint eslint-plugin-maintainable prettier@3
 
 ### 3. Add `.editorconfig`, IDEs and prettier will format code according to it
 
-```plain
+```text
 root = true
 
 [*]
@@ -46,7 +46,23 @@ quote_type = single
 max_line_length = 80
 ```
 
-### 4. Enforce it via `husky` and `lint-staged`
+### 4. Add browserslist
+
+`eslint-plugin-compat` will tell you if you use api that not supported by browsers
+
+```json
+  "browserslist": [
+    "last 5 Chrome versions",
+    "last 5 ChromeAndroid versions",
+    "last 5 Firefox versions",
+    "last 5 FirefoxAndroid versions",
+    "Firefox ESR",
+    "last 3 Safari major versions",
+    "last 2 iOS major versions"
+  ],
+```
+
+### 5. Enforce it via `husky` and `lint-staged`
 
 Install deps
 
