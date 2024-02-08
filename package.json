@@ -28,6 +28,9 @@
   ],
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "esbuild lib/index.cjs --bundle --minify --platform=node --target=node16 --outfile=dist/index.js",
     "lint": "npm-run-all \"lint:*\"",
