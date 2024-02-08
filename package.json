@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-maintainable",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Eslint config to keep code clean and in maintainable state",
   "author": {
     "name": "asmyshlyaev177",
@@ -44,7 +44,6 @@
     "eslint-plugin-cypress": "^2.x.x",
     "eslint-plugin-deprecation": "^2.x.x",
     "eslint-plugin-disable": "^2.x.x",
-    "eslint-plugin-jest": ">=27.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",
     "eslint-plugin-no-secrets": "^0.x.x",
@@ -75,7 +74,6 @@
     "eslint-plugin-cypress": "^2.x.x",
     "eslint-plugin-deprecation": "^2.x.x",
     "eslint-plugin-disable": "^2.x.x",
-    "eslint-plugin-jest": ">=27.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",
     "eslint-plugin-no-secrets": "^0.x.x",

@@ -48,7 +48,7 @@ quote_type = single
 max_line_length = 80
 ```
 
-### 4. Add browserslist
+### 4. Add browserslist to `package.json`
 
 `eslint-plugin-compat` will tell you if you use api that not supported by browsers
 
