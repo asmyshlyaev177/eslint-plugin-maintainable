@@ -2,16 +2,16 @@
 
 [![npm](https://img.shields.io/npm/v/eslint-plugin-maintainable.svg)](https://www.npmjs.com/package/eslint-plugin-maintainable)
 
-This plugin focused on keeping code clean, maintanable and readable for humans. Because coders read existing code most of the times, cumbersome code will slow you down and lead to bugs.
+This plugin focused on keeping the code clean, maintainable, and readable for humans. Because coders read existing code most of the times, cumbersome code will slow you down and lead to bugs.
 
-This achieved via rules like `complexity`, `sonarjs/cognitive-complexity`, `max-params`, `max-nested-callbacks` etc.
-Also line length is limited to 80 characters so it convinient to split and edit code side by side.
+This is achieved via rules like `complexity`,  `sonarjs/cognitive-complexity`,  `max-params`, `max-nested-callbacks` etc.
+Also, line length is limited to 80 characters, so it's convinient to split and edit code side by side.
 
 Also includes setup to format code with `prettier` via eslint, so no hassle to set up those two.
 
-Feel free to ask questions or propose improvements in "issues"
+Feel free to ask questions or propose improvements to "issues"
 
-:star: if you like the project :)
+:star: if you like the the project :)
 
 ## Installation and setup
 
