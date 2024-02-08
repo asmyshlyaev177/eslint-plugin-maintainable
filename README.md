@@ -1,5 +1,7 @@
 # eslint-plugin-maintainable
 
+[![npm](https://img.shields.io/npm/v/eslint-plugin-maintainable.svg)](https://www.npmjs.com/package/eslint-plugin-maintainable)
+
 This plugin focused on keeping code clean, maintanable and readable for humans. Because coders read existing code most of the times, cumbersome code will slow you down and lead to bugs.
 
 This achieved via rules like `complexity`, `sonarjs/cognitive-complexity`, `max-params`, `max-nested-callbacks` etc.
