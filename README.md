@@ -9,6 +9,10 @@ Also line length is limited to 80 characters so it convinient to split and edit 
 
 Also includes setup to format code with `prettier` via eslint, so no hassle to set up those two.
 
+Feel free to ask questions or propose improvements in "issues"
+
+:star: if you like the project :)
+
 ## Installation and setup
 
 ### 1. Install via npm
