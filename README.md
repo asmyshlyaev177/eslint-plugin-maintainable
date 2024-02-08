@@ -3,6 +3,7 @@
 This plugin focused on keeping code clean, maintanable and readable for humans. Because coders read existing code most of the times, cumbersome code will slow you down and lead to bugs.
 
 This achieved via rules like `complexity`, `sonarjs/cognitive-complexity`, `max-params`, `max-nested-callbacks` etc.
+Also line length is limited to 80 characters so it convinient to split and edit code side by side.
 
 Also includes setup to format code with `prettier` via eslint, so no hassle to set up those two.
 
@@ -21,6 +22,7 @@ npm i -D eslint eslint-plugin-maintainable prettier@3
 {
     "extends": [
       "plugin:maintainable/recommended",
+      "plugin:maintainable/react",
       "...your others configs"
     ],
     "plugins": [
@@ -95,6 +97,10 @@ And update `package.json`
 
 ## Configurations
 
-|     | Name          | Description                                       |
-| --- | ------------- | ------------------------------------------------- |
-| ✅  | `recommended` | General rules for Node and Browser, support js/ts |
+|     | Name          | Description                             |
+| --- | ------------- | --------------------------------------- |
+| ✅  | `base`        | Basic rules and prettier formatter      |
+| ✅  | `recommended` | Basic + more rules for Node and Browser |
+| ✅  | `react`       | Basic + React specific rules                    |
+
+You can take a look at configs [definitions](https://github.com/asmyshlyaev177/eslint-plugin-maintainable/blob/main/lib/index.cjs)
