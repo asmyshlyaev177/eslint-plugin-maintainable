@@ -24,7 +24,8 @@
     "manageable code",
     "readable code",
     "readability",
-    "coding-style"
+    "coding-style",
+    "typescript"
   ],
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
@@ -45,7 +46,6 @@
     "eslint-config-prettier": "^9.x.x",
     "eslint-plugin-compat": "^4.x.x",
     "eslint-plugin-cypress": "^2.x.x",
-    "eslint-plugin-deprecation": "^2.x.x",
     "eslint-plugin-disable": "^2.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",
@@ -75,7 +75,6 @@
     "eslint-config-prettier": "^9.x.x",
     "eslint-plugin-compat": "^4.x.x",
     "eslint-plugin-cypress": "^2.x.x",
-    "eslint-plugin-deprecation": "^2.x.x",
     "eslint-plugin-disable": "^2.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",

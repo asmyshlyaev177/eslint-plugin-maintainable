@@ -4,7 +4,7 @@
 
 This plugin focused on keeping the code clean, maintainable, and readable for humans. Because coders read existing code most of the times, cumbersome code will slow you down and lead to bugs.
 
-This is achieved via rules like `complexity`,  `sonarjs/cognitive-complexity`,  `max-params`, `max-nested-callbacks` etc.
+This is achieved via rules like `complexity`, `sonarjs/cognitive-complexity`, `max-params`, `max-nested-callbacks` etc.
 Also, line length is limited to 80 characters, so it's convinient to split and edit code side by side.
 
 Also includes setup to format code with `prettier` via eslint, so no hassle to set up those two.
@@ -17,8 +17,10 @@ Feel free to ask questions or propose improvements to "issues"
 
 ### 1. Install via npm
 
+Need eslint 8+ and prettier 3+
+
 ```sh
-npm i -D eslint eslint-plugin-maintainable prettier@3
+npm i -D eslint@latest eslint-plugin-maintainable@latest prettier@latest
 ```
 
 ### 2. Extend recommended config and add `maintainable` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix
@@ -36,6 +38,14 @@ npm i -D eslint eslint-plugin-maintainable prettier@3
         "...your others plugins"
     ]
 }
+```
+
+#### Typescript/JS
+
+By default plugin intended to be used with Typescript, but can tune it for pure JS, just change parser to default "espree" or "@babel/eslint-parser".
+
+```json
+ "parser": "espree",
 ```
 
 ### 3. Add `.editorconfig`, IDEs and prettier will format code according to it
