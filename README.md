@@ -86,26 +86,28 @@ Install deps
 
 ```sh
 npm i -D husky lint-staged
+npx husky install
 ```
 
 More details at [lint-staged repo](https://github.com/lint-staged/lint-staged?tab=readme-ov-file#installation-and-setup)
 
+Edit(or create) file `pre-commit` in `.husky` directory with this content:
+```sh
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx lint-staged
+```
+
 And update `package.json`
 
 ```json
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
-      "git add"
     ],
     "*.{html,css,less,ejs,json}": [
       "prettier --write",
-      "git add"
     ]
   },
 
