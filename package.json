@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-maintainable",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Eslint config to keep code clean and in maintainable state",
   "author": {
     "name": "asmyshlyaev177",
