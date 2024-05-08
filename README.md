@@ -20,7 +20,7 @@ Feel free to ask questions or propose improvements to "issues"
 Need eslint 8+ and prettier 3+
 
 ```sh
-npm i -D eslint@latest eslint-plugin-maintainable@latest prettier@latest
+npm i -D eslint@8 eslint-plugin-maintainable@latest prettier@latest
 ```
 
 ### 2. Extend recommended config and add `maintainable` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix
