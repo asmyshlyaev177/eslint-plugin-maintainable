@@ -44,20 +44,21 @@
     "@typescript-eslint/eslint-plugin": "^6.x.x",
     "@typescript-eslint/parser": "^6.x.x",
     "eslint-config-prettier": "^9.x.x",
+    "eslint-import-resolver-typescript": "^3.x.x",
     "eslint-plugin-compat": "^4.x.x",
     "eslint-plugin-cypress": "^2.x.x",
     "eslint-plugin-disable": "^2.x.x",
     "eslint-plugin-import": "^2.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",
-    "eslint-plugin-no-secrets": "^0.x.x",
     "eslint-plugin-prettier": "^5.x.x",
-    "eslint-import-resolver-typescript": "^3.x.x",
     "eslint-plugin-react": ">=7.x.x",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-react-redux": ">=4.1.0",
+    "eslint-plugin-simple-import-sort": ">=12.x.x",
     "eslint-plugin-sonarjs": "^0.x.x",
-    "eslint-plugin-unicorn": ">=50.x.x"
+    "eslint-plugin-unicorn": ">=50.x.x",
+    "eslint-plugin-unused-imports": "^4.0.0"
   },
   "devDependencies": {
     "esbuild": "^0.20.0",
@@ -68,7 +69,7 @@
     "npm-run-all": "^4.1.5"
   },
   "engines": {
-    "node": "^16.0.0 || >= 18.0.0"
+    "node": ">= 18.18.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.x.x",
@@ -82,13 +83,14 @@
     "eslint-plugin-import": "^2.x.x",
     "eslint-plugin-jsonc": "^2.x.x",
     "eslint-plugin-jsx-a11y": "^6.x.x",
-    "eslint-plugin-no-secrets": "^0.x.x",
     "eslint-plugin-prettier": "^5.x.x",
     "eslint-plugin-react": ">=7.x.x",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-react-redux": ">=4.1.0",
+    "eslint-plugin-simple-import-sort": ">=12.x.x",
     "eslint-plugin-sonarjs": "^0.x.x",
     "eslint-plugin-unicorn": ">=50.x.x",
+    "eslint-plugin-unused-imports": ">=4.x.x",
     "prettier": "^3.x.x"
   }
 }
