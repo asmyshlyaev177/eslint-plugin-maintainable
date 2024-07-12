@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-maintainable",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Eslint config to keep code clean and in maintainable state",
   "author": {
     "name": "asmyshlyaev177",
@@ -55,10 +55,10 @@
     "eslint-plugin-react": ">=7.x.x",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-react-redux": ">=4.1.0",
-    "eslint-plugin-simple-import-sort": ">=12.x.x",
+    "eslint-plugin-simple-import-sort": "^12.x.x",
     "eslint-plugin-sonarjs": "^0.x.x",
-    "eslint-plugin-unicorn": ">=50.x.x",
-    "eslint-plugin-unused-imports": "^4.0.0"
+    "eslint-plugin-unicorn": "^50.x.x",
+    "eslint-plugin-unused-imports": "^4.x.x"
   },
   "devDependencies": {
     "esbuild": "^0.20.0",
@@ -87,10 +87,10 @@
     "eslint-plugin-react": ">=7.x.x",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-react-redux": ">=4.1.0",
-    "eslint-plugin-simple-import-sort": ">=12.x.x",
+    "eslint-plugin-simple-import-sort": "^12.x.x",
     "eslint-plugin-sonarjs": "^0.x.x",
-    "eslint-plugin-unicorn": ">=50.x.x",
-    "eslint-plugin-unused-imports": ">=4.x.x",
+    "eslint-plugin-unicorn": "^50.x.x",
+    "eslint-plugin-unused-imports": "^4.x.x",
     "prettier": "^3.x.x"
   }
 }
